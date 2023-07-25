@@ -1,0 +1,30 @@
+/* таблица */
+table {
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  text-align: center;
+  margin:2%
+
+}
+thead th:nth-child(1) {
+  width: 60%;
+}
+
+thead th:nth-child(2) {
+  width: 40%;
+}
+th, td {
+  padding: 5px;
+}
+
+
+
+/* текст */
+p {
+  margin-left:20px;
+  font-size: 15px;
+  font-style: italic;
+  font-family: sans-serif;
+}
